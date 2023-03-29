@@ -19,9 +19,4 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='homepage'),
-<<<<<<< HEAD
-=======
-    path('test/', views.test, name='testpage'),
-    path('about/', views.about, name='aboutpage'),
->>>>>>> Episode-3
 ]
